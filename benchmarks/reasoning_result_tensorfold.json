@@ -1,0 +1,32 @@
+{
+  "model": "qwen3.8-flash-next-tf",
+  "gsm8k": {
+    "n": 100,
+    "accuracy": 0.99,
+    "truncated": 0,
+    "avg_tokens": 576.76,
+    "max_tokens": 14747,
+    "wall_secs": 497,
+    "agg_tok_s": 116.1
+  },
+  "math500": {
+    "n": 100,
+    "accuracy": 0.99,
+    "truncated": 1,
+    "avg_tokens": 1499.52,
+    "max_tokens": 16384,
+    "wall_secs": 812,
+    "agg_tok_s": 184.7
+  },
+  "longform": {
+    "tokens": [
+      32768,
+      16062,
+      32768,
+      32768
+    ],
+    "avg_tokens": 28591.5,
+    "max_tokens": 32768,
+    "hit_cap": 3
+  }
+}

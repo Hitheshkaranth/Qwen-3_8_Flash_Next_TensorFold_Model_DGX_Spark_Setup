@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-10",
+  "hardware": "NVIDIA DGX Spark (GB10), 121 GiB unified memory",
+  "method": "benchmarks/throughput_bench.py: every request generates exactly 512 tokens (ignore_eos), temperature 0.6, prompt 'Write a detailed history of the printing press.', one warm-up request. TensorFold measured directly on :8006 (the gateway's per-user cap would hold one client to 4); the reference rows went through the gateway (~2% overhead).",
+  "results": {
+    "qwen3.8-flash-next-tf (this repo, TensorFold INT4-AR, PARALLEL 16)": {
+      "users_1": {"aggregate_tok_s": 53.1, "per_user_tok_s": 53.1},
+      "users_4": {"aggregate_tok_s": 160.4, "per_user_tok_s": 40.2},
+      "users_8": {"aggregate_tok_s": 272.4, "per_user_tok_s": 34.1},
+      "users_16": {"aggregate_tok_s": 400.4, "per_user_tok_s": 25.0},
+      "users_20": {"aggregate_tok_s": 321.6, "per_user_tok_s": 23.2},
+      "peak_aggregate_tok_s": 400.4,
+      "peak_at_users": 16,
+      "mtp_acceptance": 0.735,
+      "sequence_memory_gib": 27.49,
+      "weights_gib": 65.7,
+      "cold_start_to_ready_s": 125
+    },
+    "qwen3.8-flash-next (vLLM NVFP4, 10 experts, MAX_NUM_SEQS 16)": {
+      "users_1": {"aggregate_tok_s": 34.7, "per_user_tok_s": 34.8},
+      "users_8": {"aggregate_tok_s": 115.1, "per_user_tok_s": 14.7},
+      "users_16": {"aggregate_tok_s": 166.8, "per_user_tok_s": 11.4},
+      "users_20": {"aggregate_tok_s": 124.2, "per_user_tok_s": 9.9},
+      "peak_aggregate_tok_s": 166.8, "peak_at_users": 16,
+      "source": "github.com/Hitheshkaranth/Qwen3.8-Flash-Next_Model_DGX_Spark_Setup, 2026-10-09"
+    },
+    "ornith-1.5-35b-a3b (vLLM NVFP4, max-num-seqs 20)": {
+      "users_1": {"aggregate_tok_s": 79.0, "per_user_tok_s": 79.0},
+      "users_16": {"aggregate_tok_s": 438.8, "per_user_tok_s": 28.0},
+      "users_20": {"aggregate_tok_s": 490.3, "per_user_tok_s": 24.9},
+      "users_24": {"aggregate_tok_s": 405.7, "per_user_tok_s": 23.7},
+      "peak_aggregate_tok_s": 490.3, "peak_at_users": 20,
+      "source": "github.com/Hitheshkaranth/Ornith-1.5_A3B_Model_DGX_Spark_Setup, 2026-09-26"
+    }
+  }
+}

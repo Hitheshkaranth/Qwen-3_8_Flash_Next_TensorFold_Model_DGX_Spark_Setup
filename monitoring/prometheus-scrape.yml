@@ -1,0 +1,38 @@
+# Add under `scrape_configs:` in prometheus.yml. Assumes Prometheus runs in Docker
+# with `extra_hosts: ["host.docker.internal:host-gateway"]`.
+#
+# TensorFold's /metrics requires the same bearer key as its API. Keep the key in a
+# file and mount it into the Prometheus container, e.g. in compose.yaml:
+#     volumes:
+#       - ./prometheus/secrets:/etc/prometheus/secrets:ro
+# with prometheus/secrets/vllm-upstream.key = gateway/upstream.key (mode 644: the
+# container runs as nobody). Recreate the container after adding the mount.
+#
+# Metric names are rewritten from tensorfold:* to vllm:* so the vLLM dashboards
+# (monitoring/grafana-dashboard.json) work unchanged; model_name is added because
+# TensorFold's series don't carry it and the per-user panels join on it.
+  - job_name: tensorfold
+    metrics_path: /metrics
+    authorization:
+      type: Bearer
+      credentials_file: /etc/prometheus/secrets/vllm-upstream.key
+    static_configs:
+      - targets: ["host.docker.internal:8006"]
+        labels:
+          service: tensorfold
+          model_name: qwen3.8-flash-next-tf
+    metric_relabel_configs:
+      - source_labels: [__name__, status]
+        regex: 'tensorfold:requests_total;[^2].*'
+        action: drop
+      - source_labels: [__name__]
+        regex: 'tensorfold:requests_total'
+        target_label: __name__
+        replacement: 'vllm:request_success_total'
+      - source_labels: [__name__]
+        regex: 'tensorfold:(.*)'
+        target_label: __name__
+        replacement: 'vllm:$1'
+  - job_name: llm-gateway              # per-user / per-device token counters
+    static_configs:
+      - targets: ["host.docker.internal:8080"]

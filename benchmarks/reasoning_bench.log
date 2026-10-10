@@ -1,0 +1,3 @@
+gsm8k     acc=99%  avg_tokens=577  truncated=0  wall=497s
+math500   acc=99%  avg_tokens=1500  truncated=1  wall=812s
+longform  tokens=[32768, 16062, 32768, 32768]  hit_32k_cap=3

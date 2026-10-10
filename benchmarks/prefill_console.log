@@ -1,0 +1,13 @@
+[tensorfold] cold   8101 tok  TTFT   3.75s    2161 tok/s  cached=0
+[tensorfold] warm   8101 tok  TTFT   0.08s  cached=8096
+[tensorfold] cold  32097 tok  TTFT  14.48s    2217 tok/s  cached=0
+[tensorfold] warm  32097 tok  TTFT   0.14s  cached=32092
+[tensorfold] cold  64104 tok  TTFT  26.46s    2422 tok/s  cached=0
+[tensorfold] warm  64104 tok  TTFT   0.20s  cached=64099
+[tensorfold] mixed 8 decoders + cold 32101 tok: TTFT 144.25s | decoder gap quiet p50/p95 [58, 79] ms, during prefill p50/p95/max [62, 73, 103] ms
+[tensorfold-mixed7] cold   2101 tok  TTFT   0.86s    2429 tok/s  cached=0
+[tensorfold-mixed7] warm   2101 tok  TTFT   0.80s  cached=0
+[tensorfold-mixed7] mixed 7 decoders + cold 32104 tok: TTFT 12.85s | decoder gap quiet p50/p95 [48, 71] ms, during prefill p50/p95/max [54, 55, 55] ms
+[tensorfold-mixed7-v2] cold   2101 tok  TTFT   0.85s    2459 tok/s  cached=0
+[tensorfold-mixed7-v2] warm   2101 tok  TTFT   0.80s  cached=0
+[tensorfold-mixed7-v2] mixed 7 decoders + cold 32099 tok: TTFT 12.91s | decoder gap quiet p50/p95 [48, 68] ms, during prefill p50/p95/max [56, 12847, 12847] ms (28 gaps)

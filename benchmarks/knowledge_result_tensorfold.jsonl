@@ -1,0 +1,193 @@
+{"question_id": 3202, "category": "biology", "answer": "J", "pred": "E", "correct": false, "finish": "stop", "tokens": 920, "secs": 61.3}
+{"question_id": 3239, "category": "biology", "answer": "D", "pred": "D", "correct": true, "finish": "stop", "tokens": 3611, "secs": 186.9}
+{"question_id": 2847, "category": "biology", "answer": "D", "pred": "D", "correct": true, "finish": "stop", "tokens": 389, "secs": 25.7}
+{"question_id": 3071, "category": "biology", "answer": "G", "pred": "G", "correct": true, "finish": "stop", "tokens": 145, "secs": 12.0}
+{"question_id": 3332, "category": "biology", "answer": "D", "pred": "D", "correct": true, "finish": "stop", "tokens": 9355, "secs": 565.2}
+{"question_id": 3306, "category": "biology", "answer": "E", "pred": "E", "correct": true, "finish": "stop", "tokens": 772, "secs": 37.9}
+{"question_id": 3223, "category": "biology", "answer": "B", "pred": "B", "correct": true, "finish": "stop", "tokens": 204, "secs": 15.7}
+{"question_id": 3118, "category": "biology", "answer": "C", "pred": "C", "correct": true, "finish": "stop", "tokens": 298, "secs": 22.4}
+{"question_id": 3297, "category": "biology", "answer": "G", "pred": "G", "correct": true, "finish": "stop", "tokens": 147, "secs": 6.1}
+{"question_id": 3174, "category": "biology", "answer": "H", "pred": "H", "correct": true, "finish": "stop", "tokens": 815, "secs": 47.6}
+{"question_id": 3406, "category": "biology", "answer": "D", "pred": "D", "correct": true, "finish": "stop", "tokens": 131, "secs": 8.1}
+{"question_id": 3029, "category": "biology", "answer": "H", "pred": "H", "correct": true, "finish": "stop", "tokens": 329, "secs": 17.2}
+{"question_id": 3325, "category": "biology", "answer": "B", "pred": "B", "correct": true, "finish": "stop", "tokens": 265, "secs": 15.6}
+{"question_id": 2948, "category": "biology", "answer": "I", "pred": "I", "correct": true, "finish": "stop", "tokens": 191, "secs": 9.3}
+{"question_id": 3095, "category": "biology", "answer": "G", "pred": "G", "correct": true, "finish": "stop", "tokens": 149, "secs": 9.6}
+{"question_id": 2949, "category": "biology", "answer": "F", "pred": "F", "correct": true, "finish": "stop", "tokens": 506, "secs": 26.2}
+{"question_id": 2903, "category": "biology", "answer": "H", "pred": "H", "correct": true, "finish": "stop", "tokens": 8725, "secs": 441.4}
+{"question_id": 3442, "category": "biology", "answer": "C", "pred": "C", "correct": true, "finish": "stop", "tokens": 166, "secs": 7.8}
+{"question_id": 3062, "category": "biology", "answer": "C", "pred": "C", "correct": true, "finish": "stop", "tokens": 653, "secs": 33.6}
+{"question_id": 3354, "category": "biology", "answer": "C", "pred": "C", "correct": true, "finish": "stop", "tokens": 495, "secs": 23.6}
+{"question_id": 3425, "category": "biology", "answer": "C", "pred": "C", "correct": true, "finish": "stop", "tokens": 616, "secs": 43.1}
+{"question_id": 2956, "category": "biology", "answer": "G", "pred": "G", "correct": true, "finish": "stop", "tokens": 338, "secs": 17.6}
+{"question_id": 3125, "category": "biology", "answer": "J", "pred": "J", "correct": true, "finish": "stop", "tokens": 149, "secs": 8.0}
+{"question_id": 2907, "category": "biology", "answer": "E", "pred": "E", "correct": true, "finish": "stop", "tokens": 188, "secs": 12.2}
+{"question_id": 2881, "category": "biology", "answer": "F", "pred": "F", "correct": true, "finish": "stop", "tokens": 822, "secs": 48.5}
+{"question_id": 3509, "category": "biology", "answer": "A", "pred": "A", "correct": true, "finish": "stop", "tokens": 472, "secs": 31.8}
+{"question_id": 3146, "category": "biology", "answer": "G", "pred": "G", "correct": true, "finish": "stop", "tokens": 244, "secs": 13.4}
+{"question_id": 3292, "category": "biology", "answer": "H", "pred": "H", "correct": true, "finish": "stop", "tokens": 288, "secs": 12.0}
+{"question_id": 3382, "category": "biology", "answer": "F", "pred": "F", "correct": true, "finish": "stop", "tokens": 319, "secs": 19.4}
+{"question_id": 2909, "category": "biology", "answer": "C", "pred": "C", "correct": true, "finish": "stop", "tokens": 310, "secs": 20.0}
+{"question_id": 3170, "category": "biology", "answer": "H", "pred": "H", "correct": true, "finish": "stop", "tokens": 196, "secs": 10.6}
+{"question_id": 3253, "category": "biology", "answer": "I", "pred": "E", "correct": false, "finish": "stop", "tokens": 5791, "secs": 325.6}
+{"question_id": 3131, "category": "biology", "answer": "E", "pred": "E", "correct": true, "finish": "stop", "tokens": 1002, "secs": 54.1}
+{"question_id": 3434, "category": "biology", "answer": "A", "pred": "A", "correct": true, "finish": "stop", "tokens": 453, "secs": 30.7}
+{"question_id": 3464, "category": "biology", "answer": "E", "pred": "E", "correct": true, "finish": "stop", "tokens": 675, "secs": 25.2}
+{"question_id": 3015, "category": "biology", "answer": "I", "pred": "I", "correct": true, "finish": "stop", "tokens": 477, "secs": 18.3}
+{"question_id": 3374, "category": "biology", "answer": "B", "pred": "B", "correct": true, "finish": "stop", "tokens": 1008, "secs": 65.2}
+{"question_id": 3262, "category": "biology", "answer": "G", "pred": "G", "correct": true, "finish": "stop", "tokens": 131, "secs": 7.9}
+{"question_id": 3342, "category": "biology", "answer": "F", "pred": "F", "correct": true, "finish": "stop", "tokens": 431, "secs": 22.7}
+{"question_id": 3072, "category": "biology", "answer": "C", "pred": "C", "correct": true, "finish": "stop", "tokens": 122, "secs": 6.6}
+{"question_id": 2869, "category": "biology", "answer": "I", "pred": "I", "correct": true, "finish": "stop", "tokens": 517, "secs": 28.6}
+{"question_id": 3370, "category": "biology", "answer": "I", "pred": "I", "correct": true, "finish": "stop", "tokens": 277, "secs": 16.8}
+{"question_id": 2818, "category": "biology", "answer": "D", "pred": "D", "correct": true, "finish": "stop", "tokens": 112, "secs": 5.8}
+{"question_id": 2901, "category": "biology", "answer": "J", "pred": "J", "correct": true, "finish": "stop", "tokens": 285, "secs": 15.2}
+{"question_id": 3217, "category": "biology", "answer": "B", "pred": "B", "correct": true, "finish": "stop", "tokens": 147, "secs": 8.5}
+{"question_id": 3493, "category": "biology", "answer": "A", "pred": "A", "correct": true, "finish": "stop", "tokens": 396, "secs": 21.7}
+{"question_id": 3449, "category": "biology", "answer": "H", "pred": "H", "correct": true, "finish": "stop", "tokens": 191, "secs": 11.2}
+{"question_id": 2805, "category": "biology", "answer": "D", "pred": "D", "correct": true, "finish": "stop", "tokens": 144, "secs": 7.7}
+{"question_id": 3435, "category": "biology", "answer": "C", "pred": "C", "correct": true, "finish": "stop", "tokens": 5615, "secs": 360.9}
+{"question_id": 3314, "category": "biology", "answer": "B", "pred": "B", "correct": true, "finish": "stop", "tokens": 696, "secs": 41.1}
+{"question_id": 414, "category": "business", "answer": "F", "pred": "F", "correct": true, "finish": "stop", "tokens": 1481, "secs": 69.2}
+{"question_id": 321, "category": "business", "answer": "A", "pred": "A", "correct": true, "finish": "stop", "tokens": 1277, "secs": 46.5}
+{"question_id": 824, "category": "business", "answer": "B", "pred": "G", "correct": false, "finish": "stop", "tokens": 886, "secs": 38.3}
+{"question_id": 406, "category": "business", "answer": "A", "pred": "A", "correct": true, "finish": "stop", "tokens": 3865, "secs": 181.2}
+{"question_id": 797, "category": "business", "answer": "C", "pred": "C", "correct": true, "finish": "stop", "tokens": 306, "secs": 10.5}
+{"question_id": 135, "category": "business", "answer": "I", "pred": "I", "correct": true, "finish": "stop", "tokens": 3035, "secs": 100.5}
+{"question_id": 267, "category": "business", "answer": "I", "pred": "I", "correct": true, "finish": "stop", "tokens": 146, "secs": 8.0}
+{"question_id": 657, "category": "business", "answer": "E", "pred": "E", "correct": true, "finish": "stop", "tokens": 1074, "secs": 43.5}
+{"question_id": 299, "category": "business", "answer": "J", "pred": "J", "correct": true, "finish": "stop", "tokens": 10671, "secs": 641.6}
+{"question_id": 316, "category": "business", "answer": "H", "pred": "I", "correct": false, "finish": "stop", "tokens": 4036, "secs": 229.3}
+{"question_id": 216, "category": "business", "answer": "J", "pred": "J", "correct": true, "finish": "stop", "tokens": 364, "secs": 11.5}
+{"question_id": 631, "category": "business", "answer": "E", "pred": "E", "correct": true, "finish": "stop", "tokens": 234, "secs": 11.0}
+{"question_id": 532, "category": "business", "answer": "J", "pred": "J", "correct": true, "finish": "stop", "tokens": 371, "secs": 13.1}
+{"question_id": 164, "category": "business", "answer": "B", "pred": "B", "correct": true, "finish": "stop", "tokens": 711, "secs": 23.0}
+{"question_id": 153, "category": "business", "answer": "I", "pred": "I", "correct": true, "finish": "stop", "tokens": 470, "secs": 18.9}
+{"question_id": 400, "category": "business", "answer": "B", "pred": "B", "correct": true, "finish": "stop", "tokens": 239, "secs": 8.9}
+{"question_id": 595, "category": "business", "answer": "D", "pred": "D", "correct": true, "finish": "stop", "tokens": 423, "secs": 18.1}
+{"question_id": 576, "category": "business", "answer": "H", "pred": "H", "correct": true, "finish": "stop", "tokens": 699, "secs": 33.3}
+{"question_id": 182, "category": "business", "answer": "A", "pred": "A", "correct": true, "finish": "stop", "tokens": 241, "secs": 9.2}
+{"question_id": 381, "category": "business", "answer": "I", "pred": "I", "correct": true, "finish": "stop", "tokens": 189, "secs": 7.2}
+{"question_id": 640, "category": "business", "answer": "G", "pred": "G", "correct": true, "finish": "stop", "tokens": 6613, "secs": 285.9}
+{"question_id": 371, "category": "business", "answer": "I", "pred": "I", "correct": true, "finish": "stop", "tokens": 449, "secs": 18.7}
+{"question_id": 800, "category": "business", "answer": "G", "pred": "G", "correct": true, "finish": "stop", "tokens": 205, "secs": 9.5}
+{"question_id": 198, "category": "business", "answer": "H", "pred": "H", "correct": true, "finish": "stop", "tokens": 168, "secs": 8.7}
+{"question_id": 636, "category": "business", "answer": "E", "pred": "E", "correct": true, "finish": "stop", "tokens": 2513, "secs": 104.6}
+{"question_id": 413, "category": "business", "answer": "B", "pred": "B", "correct": true, "finish": "stop", "tokens": 395, "secs": 16.6}
+{"question_id": 628, "category": "business", "answer": "B", "pred": "B", "correct": true, "finish": "stop", "tokens": 194, "secs": 10.4}
+{"question_id": 280, "category": "business", "answer": "F", "pred": "F", "correct": true, "finish": "stop", "tokens": 589, "secs": 23.7}
+{"question_id": 694, "category": "business", "answer": "A", "pred": null, "correct": false, "finish": "length", "tokens": 16384, "secs": 835.6}
+{"question_id": 677, "category": "business", "answer": "H", "pred": "H", "correct": true, "finish": "stop", "tokens": 2857, "secs": 152.6}
+{"question_id": 366, "category": "business", "answer": "D", "pred": "D", "correct": true, "finish": "stop", "tokens": 171, "secs": 9.2}
+{"question_id": 529, "category": "business", "answer": "B", "pred": "B", "correct": true, "finish": "stop", "tokens": 279, "secs": 7.7}
+{"question_id": 686, "category": "business", "answer": "C", "pred": "C", "correct": true, "finish": "stop", "tokens": 79, "secs": 4.0}
+{"question_id": 468, "category": "business", "answer": "C", "pred": "C", "correct": true, "finish": "stop", "tokens": 1200, "secs": 53.5}
+{"question_id": 397, "category": "business", "answer": "J", "pred": "J", "correct": true, "finish": "stop", "tokens": 154, "secs": 5.9}
+{"question_id": 665, "category": "business", "answer": "C", "pred": null, "correct": false, "finish": "length", "tokens": 16384, "secs": 819.7}
+{"question_id": 319, "category": "business", "answer": "C", "pred": "C", "correct": true, "finish": "stop", "tokens": 430, "secs": 16.3}
+{"question_id": 370, "category": "business", "answer": "H", "pred": "H", "correct": true, "finish": "stop", "tokens": 13527, "secs": 569.9}
+{"question_id": 260, "category": "business", "answer": "E", "pred": "E", "correct": true, "finish": "stop", "tokens": 301, "secs": 12.9}
+{"question_id": 265, "category": "business", "answer": "G", "pred": "G", "correct": true, "finish": "stop", "tokens": 174, "secs": 8.6}
+{"question_id": 263, "category": "business", "answer": "D", "pred": "D", "correct": true, "finish": "stop", "tokens": 3401, "secs": 167.4}
+{"question_id": 103, "category": "business", "answer": "I", "pred": "I", "correct": true, "finish": "stop", "tokens": 564, "secs": 14.3}
+{"question_id": 704, "category": "business", "answer": "G", "pred": "G", "correct": true, "finish": "stop", "tokens": 1693, "secs": 72.2}
+{"question_id": 749, "category": "business", "answer": "D", "pred": "D", "correct": true, "finish": "stop", "tokens": 4575, "secs": 207.4}
+{"question_id": 338, "category": "business", "answer": "E", "pred": "E", "correct": true, "finish": "stop", "tokens": 309, "secs": 10.6}
+{"question_id": 562, "category": "business", "answer": "G", "pred": "G", "correct": true, "finish": "stop", "tokens": 968, "secs": 39.3}
+{"question_id": 141, "category": "business", "answer": "B", "pred": null, "correct": false, "finish": "length", "tokens": 16384, "secs": 793.1}
+{"question_id": 162, "category": "business", "answer": "G", "pred": "G", "correct": true, "finish": "stop", "tokens": 598, "secs": 23.1}
+{"question_id": 772, "category": "business", "answer": "G", "pred": "G", "correct": true, "finish": "stop", "tokens": 553, "secs": 28.0}
+{"question_id": 852, "category": "business", "answer": "D", "pred": "D", "correct": true, "finish": "stop", "tokens": 3992, "secs": 177.5}
+{"question_id": 3794, "category": "chemistry", "answer": "E", "pred": "E", "correct": true, "finish": "stop", "tokens": 1329, "secs": 49.2}
+{"question_id": 3834, "category": "chemistry", "answer": "B", "pred": "B", "correct": true, "finish": "stop", "tokens": 1673, "secs": 73.8}
+{"question_id": 3605, "category": "chemistry", "answer": "D", "pred": "D", "correct": true, "finish": "stop", "tokens": 1977, "secs": 75.8}
+{"question_id": 3691, "category": "chemistry", "answer": "D", "pred": "D", "correct": true, "finish": "stop", "tokens": 1659, "secs": 82.3}
+{"question_id": 4644, "category": "chemistry", "answer": "E", "pred": "E", "correct": true, "finish": "stop", "tokens": 387, "secs": 13.3}
+{"question_id": 4333, "category": "chemistry", "answer": "E", "pred": "G", "correct": false, "finish": "stop", "tokens": 11307, "secs": 625.3}
+{"question_id": 4611, "category": "chemistry", "answer": "G", "pred": "G", "correct": true, "finish": "stop", "tokens": 274, "secs": 10.4}
+{"question_id": 4095, "category": "chemistry", "answer": "D", "pred": "D", "correct": true, "finish": "stop", "tokens": 331, "secs": 10.4}
+{"question_id": 4605, "category": "chemistry", "answer": "B", "pred": "B", "correct": true, "finish": "stop", "tokens": 140, "secs": 6.5}
+{"question_id": 4011, "category": "chemistry", "answer": "B", "pred": "B", "correct": true, "finish": "stop", "tokens": 355, "secs": 13.3}
+{"question_id": 3968, "category": "chemistry", "answer": "F", "pred": "F", "correct": true, "finish": "stop", "tokens": 921, "secs": 29.8}
+{"question_id": 4390, "category": "chemistry", "answer": "D", "pred": "D", "correct": true, "finish": "stop", "tokens": 2514, "secs": 114.9}
+{"question_id": 4094, "category": "chemistry", "answer": "D", "pred": "D", "correct": true, "finish": "stop", "tokens": 1124, "secs": 41.2}
+{"question_id": 4458, "category": "chemistry", "answer": "G", "pred": "G", "correct": true, "finish": "stop", "tokens": 834, "secs": 34.3}
+{"question_id": 4545, "category": "chemistry", "answer": "C", "pred": "C", "correct": true, "finish": "stop", "tokens": 563, "secs": 17.4}
+{"question_id": 4263, "category": "chemistry", "answer": "G", "pred": "G", "correct": true, "finish": "stop", "tokens": 1141, "secs": 40.5}
+{"question_id": 3695, "category": "chemistry", "answer": "F", "pred": "F", "correct": true, "finish": "stop", "tokens": 885, "secs": 31.1}
+{"question_id": 4195, "category": "chemistry", "answer": "A", "pred": "A", "correct": true, "finish": "stop", "tokens": 615, "secs": 22.9}
+{"question_id": 3764, "category": "chemistry", "answer": "I", "pred": "I", "correct": true, "finish": "stop", "tokens": 372, "secs": 14.2}
+{"question_id": 4533, "category": "chemistry", "answer": "A", "pred": "A", "correct": true, "finish": "stop", "tokens": 321, "secs": 12.9}
+{"question_id": 4217, "category": "chemistry", "answer": "E", "pred": "E", "correct": true, "finish": "stop", "tokens": 792, "secs": 34.0}
+{"question_id": 3917, "category": "chemistry", "answer": "B", "pred": null, "correct": false, "finish": "length", "tokens": 16384, "secs": 825.7}
+{"question_id": 4027, "category": "chemistry", "answer": "E", "pred": "E", "correct": true, "finish": "stop", "tokens": 1429, "secs": 60.8}
+{"question_id": 3559, "category": "chemistry", "answer": "E", "pred": "E", "correct": true, "finish": "stop", "tokens": 256, "secs": 13.1}
+{"question_id": 4086, "category": "chemistry", "answer": "B", "pred": "B", "correct": true, "finish": "stop", "tokens": 498, "secs": 20.9}
+{"question_id": 3767, "category": "chemistry", "answer": "I", "pred": "I", "correct": true, "finish": "stop", "tokens": 354, "secs": 12.2}
+{"question_id": 3979, "category": "chemistry", "answer": "D", "pred": null, "correct": false, "finish": "length", "tokens": 16384, "secs": 812.0}
+{"question_id": 4293, "category": "chemistry", "answer": "H", "pred": "H", "correct": true, "finish": "stop", "tokens": 588, "secs": 22.3}
+{"question_id": 3877, "category": "chemistry", "answer": "G", "pred": null, "correct": false, "finish": "length", "tokens": 16384, "secs": 771.0}
+{"question_id": 4212, "category": "chemistry", "answer": "C", "pred": "C", "correct": true, "finish": "stop", "tokens": 496, "secs": 16.7}
+{"question_id": 4405, "category": "chemistry", "answer": "J", "pred": "J", "correct": true, "finish": "stop", "tokens": 483, "secs": 15.7}
+{"question_id": 3653, "category": "chemistry", "answer": "A", "pred": "A", "correct": true, "finish": "stop", "tokens": 778, "secs": 30.1}
+{"question_id": 3734, "category": "chemistry", "answer": "I", "pred": "I", "correct": true, "finish": "stop", "tokens": 1041, "secs": 43.3}
+{"question_id": 3827, "category": "chemistry", "answer": "E", "pred": "E", "correct": true, "finish": "stop", "tokens": 4777, "secs": 214.0}
+{"question_id": 3976, "category": "chemistry", "answer": "E", "pred": "E", "correct": true, "finish": "stop", "tokens": 4650, "secs": 190.7}
+{"question_id": 3618, "category": "chemistry", "answer": "J", "pred": "J", "correct": true, "finish": "stop", "tokens": 1146, "secs": 49.0}
+{"question_id": 4631, "category": "chemistry", "answer": "H", "pred": "H", "correct": true, "finish": "stop", "tokens": 424, "secs": 14.1}
+{"question_id": 3677, "category": "chemistry", "answer": "D", "pred": "D", "correct": true, "finish": "stop", "tokens": 2288, "secs": 96.1}
+{"question_id": 3580, "category": "chemistry", "answer": "I", "pred": "I", "correct": true, "finish": "stop", "tokens": 5108, "secs": 279.1}
+{"question_id": 3782, "category": "chemistry", "answer": "J", "pred": "J", "correct": true, "finish": "stop", "tokens": 269, "secs": 11.3}
+{"question_id": 3914, "category": "chemistry", "answer": "I", "pred": "I", "correct": true, "finish": "stop", "tokens": 1200, "secs": 59.6}
+{"question_id": 3773, "category": "chemistry", "answer": "B", "pred": "B", "correct": true, "finish": "stop", "tokens": 298, "secs": 11.1}
+{"question_id": 3715, "category": "chemistry", "answer": "J", "pred": "J", "correct": true, "finish": "stop", "tokens": 84, "secs": 5.3}
+{"question_id": 4290, "category": "chemistry", "answer": "D", "pred": "A", "correct": false, "finish": "stop", "tokens": 250, "secs": 10.4}
+{"question_id": 3765, "category": "chemistry", "answer": "F", "pred": "F", "correct": true, "finish": "stop", "tokens": 2976, "secs": 136.6}
+{"question_id": 3600, "category": "chemistry", "answer": "G", "pred": null, "correct": false, "finish": "length", "tokens": 16384, "secs": 780.6}
+{"question_id": 3570, "category": "chemistry", "answer": "C", "pred": "C", "correct": true, "finish": "stop", "tokens": 411, "secs": 15.8}
+{"question_id": 3926, "category": "chemistry", "answer": "J", "pred": "J", "correct": true, "finish": "stop", "tokens": 413, "secs": 17.2}
+{"question_id": 3906, "category": "chemistry", "answer": "I", "pred": "I", "correct": true, "finish": "stop", "tokens": 162, "secs": 6.6}
+{"question_id": 3781, "category": "chemistry", "answer": "J", "pred": "J", "correct": true, "finish": "stop", "tokens": 746, "secs": 27.7}
+{"question_id": 10607, "category": "computer science", "answer": "B", "pred": null, "correct": false, "finish": "length", "tokens": 16384, "secs": 919.8}
+{"question_id": 10466, "category": "computer science", "answer": "H", "pred": "H", "correct": true, "finish": "stop", "tokens": 272, "secs": 13.4}
+{"question_id": 10736, "category": "computer science", "answer": "H", "pred": "H", "correct": true, "finish": "stop", "tokens": 229, "secs": 13.5}
+{"question_id": 10773, "category": "computer science", "answer": "J", "pred": "J", "correct": true, "finish": "stop", "tokens": 1527, "secs": 83.4}
+{"question_id": 10389, "category": "computer science", "answer": "H", "pred": "H", "correct": true, "finish": "stop", "tokens": 219, "secs": 13.4}
+{"question_id": 10711, "category": "computer science", "answer": "E", "pred": "E", "correct": true, "finish": "stop", "tokens": 343, "secs": 16.2}
+{"question_id": 10367, "category": "computer science", "answer": "F", "pred": "F", "correct": true, "finish": "stop", "tokens": 550, "secs": 29.7}
+{"question_id": 10640, "category": "computer science", "answer": "F", "pred": "F", "correct": true, "finish": "stop", "tokens": 1484, "secs": 75.5}
+{"question_id": 10577, "category": "computer science", "answer": "H", "pred": "H", "correct": true, "finish": "stop", "tokens": 178, "secs": 9.8}
+{"question_id": 10680, "category": "computer science", "answer": "I", "pred": "I", "correct": true, "finish": "stop", "tokens": 296, "secs": 14.9}
+{"question_id": 10409, "category": "computer science", "answer": "D", "pred": "D", "correct": true, "finish": "stop", "tokens": 934, "secs": 47.1}
+{"question_id": 10492, "category": "computer science", "answer": "F", "pred": "F", "correct": true, "finish": "stop", "tokens": 821, "secs": 48.5}
+{"question_id": 10393, "category": "computer science", "answer": "B", "pred": "B", "correct": true, "finish": "stop", "tokens": 314, "secs": 19.4}
+{"question_id": 10472, "category": "computer science", "answer": "J", "pred": "J", "correct": true, "finish": "stop", "tokens": 161, "secs": 9.4}
+{"question_id": 10394, "category": "computer science", "answer": "A", "pred": "A", "correct": true, "finish": "stop", "tokens": 340, "secs": 12.1}
+{"question_id": 10695, "category": "computer science", "answer": "G", "pred": "G", "correct": true, "finish": "stop", "tokens": 203, "secs": 12.5}
+{"question_id": 10513, "category": "computer science", "answer": "E", "pred": "E", "correct": true, "finish": "stop", "tokens": 189, "secs": 11.9}
+{"question_id": 10539, "category": "computer science", "answer": "E", "pred": "E", "correct": true, "finish": "stop", "tokens": 340, "secs": 13.0}
+{"question_id": 10583, "category": "computer science", "answer": "H", "pred": "H", "correct": true, "finish": "stop", "tokens": 642, "secs": 42.3}
+{"question_id": 10451, "category": "computer science", "answer": "D", "pred": "D", "correct": true, "finish": "stop", "tokens": 7787, "secs": 405.6}
+{"question_id": 10619, "category": "computer science", "answer": "F", "pred": "F", "correct": true, "finish": "stop", "tokens": 185, "secs": 9.1}
+{"question_id": 10601, "category": "computer science", "answer": "H", "pred": "H", "correct": true, "finish": "stop", "tokens": 1892, "secs": 99.8}
+{"question_id": 10376, "category": "computer science", "answer": "A", "pred": "A", "correct": true, "finish": "stop", "tokens": 676, "secs": 29.8}
+{"question_id": 10668, "category": "computer science", "answer": "A", "pred": "A", "correct": true, "finish": "stop", "tokens": 2132, "secs": 121.5}
+{"question_id": 10722, "category": "computer science", "answer": "H", "pred": "H", "correct": true, "finish": "stop", "tokens": 155, "secs": 7.1}
+{"question_id": 10560, "category": "computer science", "answer": "F", "pred": "F", "correct": true, "finish": "stop", "tokens": 4040, "secs": 231.2}
+{"question_id": 10461, "category": "computer science", "answer": "D", "pred": "C", "correct": false, "finish": "stop", "tokens": 1008, "secs": 51.6}
+{"question_id": 10543, "category": "computer science", "answer": "C", "pred": "C", "correct": true, "finish": "stop", "tokens": 126, "secs": 5.9}
+{"question_id": 10738, "category": "computer science", "answer": "A", "pred": "A", "correct": true, "finish": "stop", "tokens": 281, "secs": 12.5}
+{"question_id": 10602, "category": "computer science", "answer": "C", "pred": "J", "correct": false, "finish": "stop", "tokens": 16360, "secs": 893.0}
+{"question_id": 10653, "category": "computer science", "answer": "C", "pred": "C", "correct": true, "finish": "stop", "tokens": 374, "secs": 12.6}
+{"question_id": 10445, "category": "computer science", "answer": "D", "pred": "D", "correct": true, "finish": "stop", "tokens": 1253, "secs": 66.4}
+{"question_id": 10721, "category": "computer science", "answer": "A", "pred": "A", "correct": true, "finish": "stop", "tokens": 470, "secs": 23.2}
+{"question_id": 10708, "category": "computer science", "answer": "C", "pred": "C", "correct": true, "finish": "stop", "tokens": 154, "secs": 8.1}
+{"question_id": 10463, "category": "computer science", "answer": "H", "pred": "B", "correct": false, "finish": "stop", "tokens": 6218, "secs": 307.9}
+{"question_id": 10756, "category": "computer science", "answer": "D", "pred": "D", "correct": true, "finish": "stop", "tokens": 1521, "secs": 58.3}
+{"question_id": 10386, "category": "computer science", "answer": "I", "pred": "J", "correct": false, "finish": "stop", "tokens": 7353, "secs": 418.0}
+{"question_id": 10767, "category": "computer science", "answer": "H", "pred": "H", "correct": true, "finish": "stop", "tokens": 772, "secs": 24.6}
+{"question_id": 10710, "category": "computer science", "answer": "J", "pred": "J", "correct": true, "finish": "stop", "tokens": 4439, "secs": 176.4}
+{"question_id": 10440, "category": "computer science", "answer": "F", "pred": "F", "correct": true, "finish": "stop", "tokens": 14869, "secs": 653.2}
+{"question_id": 10441, "category": "computer science", "answer": "B", "pred": "B", "correct": true, "finish": "stop", "tokens": 101, "secs": 4.6}
+{"question_id": 10535, "category": "computer science", "answer": "I", "pred": "I", "correct": true, "finish": "stop", "tokens": 1903, "secs": 98.2}
+{"question_id": 10633, "category": "computer science", "answer": "I", "pred": "C", "correct": false, "finish": "stop", "tokens": 878, "secs": 48.7}

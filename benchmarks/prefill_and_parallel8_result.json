@@ -1,0 +1,65 @@
+{
+  "date": "2026-10-09",
+  "engine": "TensorFold Zig engine (MiaAI-Lab/Qwen3.8-Flash-Next-Single-DGX-Spark-TensorFold @ 364f21a, image zig-db28187)",
+  "checkpoint": "azampatti/Qwen3.8-Flash-Next-125B-A5B-INT4-AutoRound @ 1464274 (GPTQ int4 g128, 5 active experts, 122 GiB on disk, 65.7 GiB weights in memory)",
+  "config": "PARALLEL 8, 262,144 context, fp8 KV, VISION=1, MTP drafts on; 29.52 GiB sequence memory; loaded in 118.5 s",
+  "method": "Same scripts as the vLLM runs, sent directly to :8006 (vLLM throughput went through the gateway, ~2% overhead).",
+  "throughput": {
+    "users_1": [
+      53.1,
+      53.1
+    ],
+    "users_4": [
+      160.4,
+      40.2
+    ],
+    "users_8": [
+      220.0,
+      28.5
+    ],
+    "users_12": [
+      231.4,
+      29.0
+    ],
+    "format": "[aggregate_tok_s, per_user_tok_s]",
+    "mtp_acceptance": 0.73,
+    "note": "users_12 exceeds PARALLEL 8; per-user equal to users_8 is unexplained, treat as provisional"
+  },
+  "prefill": {
+    "cold_ttft_s": {
+      "8k": 3.75,
+      "32k": 14.48,
+      "64k": 26.46
+    },
+    "cold_tok_s": {
+      "8k": 2161,
+      "32k": 2217,
+      "64k": 2422
+    },
+    "warm_ttft_s": {
+      "8k": 0.08,
+      "32k": 0.14,
+      "64k": 0.2
+    },
+    "mixed_7_decoders_32k": {
+      "ttft_s": 12.91,
+      "quiet_gap_ms_p50": 48,
+      "stall_ms_p95": 12847,
+      "stall_ms_max": 12847,
+      "note": "other streams freeze for the whole prefill"
+    }
+  },
+  "reasoning": "see reasoning_result_tensorfold.json (16 in flight against PARALLEL 8, so wall times are not comparable)",
+  "throughput_parallel16": {
+    "config": "PARALLEL 16 (recipe maximum), 28.74 GiB sequence memory",
+    "users_8": [
+      265.6,
+      33.3
+    ],
+    "users_16": [
+      395.8,
+      24.7
+    ],
+    "format": "[aggregate_tok_s, per_user_tok_s]"
+  }
+}
