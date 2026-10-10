@@ -148,7 +148,7 @@ If `prometheus.yml` is a single-file bind mount, edit it and `docker restart` th
 - **Streams pause during prefill.** Any new long prompt stops every other stream until it has
   been read. The vLLM build interleaves prefill chunks instead (~1 s steps).
 - **Capability.** 5 of 10 experts: ~10% lower general capability on the checkpoint authors' own
-  harness (46.6–47.6 vs 51.8). Not visible on GSM8K/MATH-500 here; MMLU-Pro is the open test.
+  harness (46.6–47.6 vs 51.8). Not visible on GSM8K/MATH-500 here; MMLU-Pro, finished later, came out at 81.9% vs Ornith 81.1% on the same 700 questions.
 - **No structured outputs** (`response_format` → HTTP 400).
 - **Recipe smoke test** always "fails" with a key (cosmetic).
 - Not yet tried: `PARALLEL` above 16 (the recipe caps it at 16), BF16 KV, `reasoning_effort`

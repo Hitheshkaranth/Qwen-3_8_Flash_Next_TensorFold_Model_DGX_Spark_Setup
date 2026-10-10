@@ -1,0 +1,91 @@
+MMLU-Pro: 700 questions, 193 already done, 507 to run
+  25/507  running acc 0.890  945s
+  50/507  running acc 0.897  945s
+  75/507  running acc 0.884  1662s
+  100/507  running acc 0.877  2320s
+  125/507  running acc 0.862  3455s
+  150/507  running acc 0.834  4277s
+  175/507  running acc 0.826  4390s
+  200/507  running acc 0.824  4866s
+  225/507  running acc 0.811  6131s
+  250/507  running acc 0.799  7960s
+  275/507  running acc 0.799  8270s
+  300/507  running acc 0.807  8821s
+  325/507  running acc 0.801  8821s
+  350/507  running acc 0.797  9396s
+  375/507  running acc 0.796  9795s
+  400/507  running acc 0.799  10560s
+  425/507  running acc 0.804  10879s
+  450/507  running acc 0.807  11205s
+  475/507  running acc 0.814  11205s
+  500/507  running acc 0.818  11406s
+  507/507  running acc 0.819  11660s
+{
+  "model": "qwen3.8-flash-next-tf",
+  "benchmark": "MMLU-Pro (TIGER-Lab/MMLU-Pro, test split)",
+  "method": "stratified sample, 50/category x 14 categories, seed 0; zero-shot, thinking on, temperature 0.6 / top_p 0.95 / top_k 20, max_tokens 16384, 8 in flight",
+  "n": 700,
+  "accuracy": 0.8186,
+  "unparsed": 47,
+  "truncated": 47,
+  "avg_tokens": 3008.5,
+  "wall_secs_this_run": 11660,
+  "by_category": {
+    "biology": {
+      "n": 50,
+      "accuracy": 0.96
+    },
+    "business": {
+      "n": 50,
+      "accuracy": 0.9
+    },
+    "chemistry": {
+      "n": 50,
+      "accuracy": 0.88
+    },
+    "computer science": {
+      "n": 50,
+      "accuracy": 0.84
+    },
+    "economics": {
+      "n": 50,
+      "accuracy": 0.92
+    },
+    "engineering": {
+      "n": 50,
+      "accuracy": 0.72
+    },
+    "health": {
+      "n": 50,
+      "accuracy": 0.58
+    },
+    "history": {
+      "n": 50,
+      "accuracy": 0.76
+    },
+    "law": {
+      "n": 50,
+      "accuracy": 0.58
+    },
+    "math": {
+      "n": 50,
+      "accuracy": 0.94
+    },
+    "other": {
+      "n": 50,
+      "accuracy": 0.68
+    },
+    "philosophy": {
+      "n": 50,
+      "accuracy": 0.84
+    },
+    "physics": {
+      "n": 50,
+      "accuracy": 0.92
+    },
+    "psychology": {
+      "n": 50,
+      "accuracy": 0.94
+    }
+  }
+}

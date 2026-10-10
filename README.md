@@ -46,7 +46,7 @@ model, including the n-gram table, in memory and runs MTP speculative decoding w
 | | |
 |---|---|
 | 🚀 **400.4 tok/s** peak aggregate output at 16 users | ⚡ **53.1 tok/s** for a single user |
-| 🧠 **GSM8K 99% · MATH-500 99%** with thinking on | 🔁 **0.2 s** to first token on a repeated 64K prompt |
+| 🧠 **MMLU-Pro 81.9% · GSM8K 99% · MATH-500 99%** | 🔁 **0.2 s** to first token on a repeated 64K prompt |
 | 👁️ Image and video input | 📊 Per-user metering gateway + Grafana with peak-output panel |
 | 💾 **~85 GiB** RAM in use under load (of 121 GiB) | ⏱️ **~2 min** cold start |
 
@@ -370,17 +370,36 @@ flight, max_tokens 16,384 (math) / 32,768 (long-form).
 
 ### Knowledge: MMLU-Pro
 
-The same 700-question stratified sample as the Ornith repo (50 per subject × 14, seed 0),
-zero-shot, thinking on, 8 in flight. **In progress**; on the questions answered so far:
+![Knowledge comparison](benchmarks/knowledge_comparison.png)
 
-| Same 193 questions | Ornith | **TensorFold Flash-Next** |
+`benchmarks/knowledge_bench.py`: the same 700-question stratified sample as the Ornith repo
+(50 per subject × 14, seed 0), zero-shot, thinking on, temperature 0.6, max_tokens 16,384,
+8 in flight. MMLU-Pro has 10 options per question (random guessing = 10%).
+
+| | Ornith | **TensorFold Flash-Next** |
 |---|---:|---:|
-| Overall | 89.1% | **90.2%** |
-| Biology / Business | 92% / 84% | 96% / 90% |
-| Chemistry / Computer science | 90% / 91% | 88% / 86% |
+| **Overall (700)** | 81.1% | **81.9%** |
+| Hit the 16K token cap (scored wrong) | 37 | 47 |
+| Avg tokens per answer | 2,273 | 3,009 |
+| Wall time (8 in flight) | 2 h 28 min | not comparable: paused at 193, resumed, shared with live users |
 
-Ornith's full-sample score is 81.1%. `benchmarks/knowledge_compare.py a.jsonl b.jsonl` compares any
-two runs on their common questions while one is still running.
+| Subject | Ornith | TensorFold | | Subject | Ornith | TensorFold |
+|---|---:|---:|---|---|---:|---:|
+| Biology | 92% | **96%** | | History | 68% | **76%** |
+| Business | 84% | **90%** | | Law | **62%** | 58% |
+| Chemistry | **90%** | 88% | | Math | 94% | 94% |
+| Computer science | **92%** | 84% | | Other | 66% | **68%** |
+| Economics | 92% | 92% | | Philosophy | 80% | **84%** |
+| Engineering | 58% | **72%** | | Physics | **94%** | 92% |
+| Health | **76%** | 58% | | Psychology | 88% | **94%** |
+
+- **Overall a statistical tie** (+0.8 points; one question is 0.14 points), even with the
+  5-of-10-expert cut. TensorFold wins 7 subjects, Ornith 5, 2 are level.
+- The biggest swings cancel out: **engineering +14** for TensorFold, **health −18**.
+- TensorFold thinks ~32% longer per answer and runs out of tokens more often (47 vs 37). A
+  larger `max_tokens` would likely add points, at the cost of time.
+- The checkpoint authors' "~10% lower general capability" is relative to the **full**
+  Flash-Next; against Ornith on this box the cut model holds its own.
 
 ### Prefill & Streaming Under Load
 
@@ -464,6 +483,7 @@ Qwen-3_8_Flash_Next_TensorFold_Model_DGX_Spark_Setup/
 │   ├── knowledge_bench.py             # MMLU-Pro, 700-question stratified sample
 │   ├── knowledge_compare.py           # compare two runs on common questions
 │   ├── knowledge_result_*.json(l)     # per-question records + summaries
+│   ├── knowledge_comparison.png       # chart
 │   ├── prefill_bench.py               # cold/warm TTFT + streaming under load
 │   ├── prefill_and_parallel8_result.json
 │   └── make_charts.py                 # renders the PNGs from the JSON results
