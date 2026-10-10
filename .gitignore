@@ -25,7 +25,7 @@ gateway/container-backups/
 *.bak-*
 
 # Upstream recipe clone (created by install.sh)
-upstream/
+/upstream
 
-# TensorFold recipe clone (created by install.sh)
-upstream/
+# TensorFold recipe clone (created by download.sh; may be a symlink)
+/upstream

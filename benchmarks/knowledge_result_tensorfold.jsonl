@@ -191,3 +191,92 @@
 {"question_id": 10441, "category": "computer science", "answer": "B", "pred": "B", "correct": true, "finish": "stop", "tokens": 101, "secs": 4.6}
 {"question_id": 10535, "category": "computer science", "answer": "I", "pred": "I", "correct": true, "finish": "stop", "tokens": 1903, "secs": 98.2}
 {"question_id": 10633, "category": "computer science", "answer": "I", "pred": "C", "correct": false, "finish": "stop", "tokens": 878, "secs": 48.7}
+{"question_id": 10487, "category": "computer science", "answer": "A", "pred": null, "correct": false, "finish": "length", "tokens": 16384, "secs": 945.5}
+{"question_id": 10419, "category": "computer science", "answer": "D", "pred": "D", "correct": true, "finish": "stop", "tokens": 378, "secs": 22.1}
+{"question_id": 10586, "category": "computer science", "answer": "C", "pred": "C", "correct": true, "finish": "stop", "tokens": 325, "secs": 18.8}
+{"question_id": 10704, "category": "computer science", "answer": "D", "pred": "D", "correct": true, "finish": "stop", "tokens": 421, "secs": 24.3}
+{"question_id": 10448, "category": "computer science", "answer": "J", "pred": "F", "correct": false, "finish": "stop", "tokens": 3458, "secs": 166.2}
+{"question_id": 10362, "category": "computer science", "answer": "A", "pred": "A", "correct": true, "finish": "stop", "tokens": 15587, "secs": 879.2}
+{"question_id": 10603, "category": "computer science", "answer": "A", "pred": "A", "correct": true, "finish": "stop", "tokens": 115, "secs": 9.9}
+{"question_id": 7540, "category": "economics", "answer": "G", "pred": "G", "correct": true, "finish": "stop", "tokens": 256, "secs": 14.1}
+{"question_id": 7252, "category": "economics", "answer": "C", "pred": "C", "correct": true, "finish": "stop", "tokens": 365, "secs": 17.5}
+{"question_id": 7422, "category": "economics", "answer": "D", "pred": "G", "correct": false, "finish": "stop", "tokens": 212, "secs": 13.2}
+{"question_id": 7359, "category": "economics", "answer": "B", "pred": "B", "correct": true, "finish": "stop", "tokens": 198, "secs": 10.6}
+{"question_id": 7149, "category": "economics", "answer": "D", "pred": "D", "correct": true, "finish": "stop", "tokens": 1225, "secs": 74.6}
+{"question_id": 7506, "category": "economics", "answer": "B", "pred": "B", "correct": true, "finish": "stop", "tokens": 292, "secs": 14.6}
+{"question_id": 7196, "category": "economics", "answer": "B", "pred": "B", "correct": true, "finish": "stop", "tokens": 1552, "secs": 60.4}
+{"question_id": 7230, "category": "economics", "answer": "D", "pred": "D", "correct": true, "finish": "stop", "tokens": 281, "secs": 17.5}
+{"question_id": 7516, "category": "economics", "answer": "A", "pred": "A", "correct": true, "finish": "stop", "tokens": 271, "secs": 14.0}
+{"question_id": 7086, "category": "economics", "answer": "F", "pred": "H", "correct": false, "finish": "stop", "tokens": 443, "secs": 25.3}
+{"question_id": 6984, "category": "economics", "answer": "F", "pred": "F", "correct": true, "finish": "stop", "tokens": 271, "secs": 13.4}
+{"question_id": 7414, "category": "economics", "answer": "I", "pred": "I", "correct": true, "finish": "stop", "tokens": 1095, "secs": 54.4}
+{"question_id": 7550, "category": "economics", "answer": "I", "pred": "I", "correct": true, "finish": "stop", "tokens": 103, "secs": 5.5}
+{"question_id": 6839, "category": "economics", "answer": "D", "pred": "A", "correct": false, "finish": "stop", "tokens": 586, "secs": 34.9}
+{"question_id": 7302, "category": "economics", "answer": "G", "pred": "G", "correct": true, "finish": "stop", "tokens": 200, "secs": 10.4}
+{"question_id": 7602, "category": "economics", "answer": "B", "pred": "B", "correct": true, "finish": "stop", "tokens": 427, "secs": 16.9}
+{"question_id": 6907, "category": "economics", "answer": "I", "pred": "I", "correct": true, "finish": "stop", "tokens": 291, "secs": 16.4}
+{"question_id": 7174, "category": "economics", "answer": "D", "pred": "D", "correct": true, "finish": "stop", "tokens": 302, "secs": 20.4}
+{"question_id": 7599, "category": "economics", "answer": "J", "pred": "J", "correct": true, "finish": "stop", "tokens": 449, "secs": 20.4}
+{"question_id": 6873, "category": "economics", "answer": "I", "pred": "I", "correct": true, "finish": "stop", "tokens": 137, "secs": 7.5}
+{"question_id": 7397, "category": "economics", "answer": "G", "pred": "G", "correct": true, "finish": "stop", "tokens": 419, "secs": 24.4}
+{"question_id": 7117, "category": "economics", "answer": "J", "pred": "J", "correct": true, "finish": "stop", "tokens": 267, "secs": 15.1}
+{"question_id": 6965, "category": "economics", "answer": "B", "pred": "B", "correct": true, "finish": "stop", "tokens": 279, "secs": 17.2}
+{"question_id": 7075, "category": "economics", "answer": "F", "pred": null, "correct": false, "finish": "length", "tokens": 16384, "secs": 736.2}
+{"question_id": 7623, "category": "economics", "answer": "D", "pred": "D", "correct": true, "finish": "stop", "tokens": 593, "secs": 34.2}
+{"question_id": 7329, "category": "economics", "answer": "B", "pred": "B", "correct": true, "finish": "stop", "tokens": 190, "secs": 10.6}
+{"question_id": 7191, "category": "economics", "answer": "A", "pred": "A", "correct": true, "finish": "stop", "tokens": 559, "secs": 25.6}
+{"question_id": 7464, "category": "economics", "answer": "H", "pred": "H", "correct": true, "finish": "stop", "tokens": 1108, "secs": 37.9}
+{"question_id": 7124, "category": "economics", "answer": "B", "pred": "B", "correct": true, "finish": "stop", "tokens": 957, "secs": 51.5}
+{"question_id": 7532, "category": "economics", "answer": "A", "pred": "A", "correct": true, "finish": "stop", "tokens": 260, "secs": 15.9}
+{"question_id": 7199, "category": "economics", "answer": "J", "pred": "J", "correct": true, "finish": "stop", "tokens": 157, "secs": 6.8}
+{"question_id": 7444, "category": "economics", "answer": "A", "pred": "A", "correct": true, "finish": "stop", "tokens": 319, "secs": 16.7}
+{"question_id": 7490, "category": "economics", "answer": "A", "pred": "A", "correct": true, "finish": "stop", "tokens": 312, "secs": 16.2}
+{"question_id": 7477, "category": "economics", "answer": "I", "pred": "I", "correct": true, "finish": "stop", "tokens": 156, "secs": 9.1}
+{"question_id": 6962, "category": "economics", "answer": "C", "pred": "C", "correct": true, "finish": "stop", "tokens": 215, "secs": 8.5}
+{"question_id": 7575, "category": "economics", "answer": "D", "pred": "D", "correct": true, "finish": "stop", "tokens": 286, "secs": 15.9}
+{"question_id": 7148, "category": "economics", "answer": "G", "pred": "G", "correct": true, "finish": "stop", "tokens": 109, "secs": 6.7}
+{"question_id": 7609, "category": "economics", "answer": "E", "pred": "E", "correct": true, "finish": "stop", "tokens": 193, "secs": 11.4}
+{"question_id": 7258, "category": "economics", "answer": "J", "pred": "J", "correct": true, "finish": "stop", "tokens": 89, "secs": 4.8}
+{"question_id": 7509, "category": "economics", "answer": "E", "pred": "E", "correct": true, "finish": "stop", "tokens": 255, "secs": 12.9}
+{"question_id": 6909, "category": "economics", "answer": "C", "pred": "C", "correct": true, "finish": "stop", "tokens": 3418, "secs": 199.2}
+{"question_id": 6827, "category": "economics", "answer": "A", "pred": "A", "correct": true, "finish": "stop", "tokens": 824, "secs": 41.8}
+{"question_id": 7448, "category": "economics", "answer": "J", "pred": "J", "correct": true, "finish": "stop", "tokens": 478, "secs": 22.6}
+{"question_id": 7024, "category": "economics", "answer": "J", "pred": "J", "correct": true, "finish": "stop", "tokens": 495, "secs": 25.8}
+{"question_id": 7558, "category": "economics", "answer": "C", "pred": "C", "correct": true, "finish": "stop", "tokens": 286, "secs": 13.9}
+{"question_id": 7173, "category": "economics", "answer": "A", "pred": "A", "correct": true, "finish": "stop", "tokens": 390, "secs": 21.8}
+{"question_id": 6990, "category": "economics", "answer": "D", "pred": "D", "correct": true, "finish": "stop", "tokens": 821, "secs": 42.6}
+{"question_id": 7057, "category": "economics", "answer": "G", "pred": "G", "correct": true, "finish": "stop", "tokens": 196, "secs": 9.1}
+{"question_id": 7494, "category": "economics", "answer": "J", "pred": "J", "correct": true, "finish": "stop", "tokens": 1023, "secs": 52.8}
+{"question_id": 7292, "category": "economics", "answer": "I", "pred": "I", "correct": true, "finish": "stop", "tokens": 275, "secs": 13.7}
+{"question_id": 11674, "category": "engineering", "answer": "J", "pred": "J", "correct": true, "finish": "stop", "tokens": 13699, "secs": 628.0}
+{"question_id": 12015, "category": "engineering", "answer": "F", "pred": null, "correct": false, "finish": "length", "tokens": 16384, "secs": 696.7}
+{"question_id": 12184, "category": "engineering", "answer": "I", "pred": "I", "correct": true, "finish": "stop", "tokens": 435, "secs": 15.2}
+{"question_id": 11977, "category": "engineering", "answer": "B", "pred": "B", "correct": true, "finish": "stop", "tokens": 15102, "secs": 577.5}
+{"question_id": 11868, "category": "engineering", "answer": "E", "pred": "E", "correct": true, "finish": "stop", "tokens": 932, "secs": 24.8}
+{"question_id": 12183, "category": "engineering", "answer": "G", "pred": "G", "correct": true, "finish": "stop", "tokens": 3955, "secs": 168.7}
+{"question_id": 11711, "category": "engineering", "answer": "C", "pred": null, "correct": false, "finish": "length", "tokens": 16384, "secs": 818.5}
+{"question_id": 11317, "category": "engineering", "answer": "D", "pred": "D", "correct": true, "finish": "stop", "tokens": 2033, "secs": 81.6}
+{"question_id": 11698, "category": "engineering", "answer": "I", "pred": "I", "correct": true, "finish": "stop", "tokens": 1880, "secs": 83.2}
+{"question_id": 12180, "category": "engineering", "answer": "H", "pred": "H", "correct": true, "finish": "stop", "tokens": 10107, "secs": 429.5}
+{"question_id": 12006, "category": "engineering", "answer": "B", "pred": "B", "correct": true, "finish": "stop", "tokens": 346, "secs": 14.6}
+{"question_id": 11715, "category": "engineering", "answer": "G", "pred": "B", "correct": false, "finish": "stop", "tokens": 7814, "secs": 333.0}
+{"question_id": 12078, "category": "engineering", "answer": "F", "pred": "F", "correct": true, "finish": "stop", "tokens": 8512, "secs": 359.6}
+{"question_id": 11966, "category": "engineering", "answer": "H", "pred": "F", "correct": false, "finish": "stop", "tokens": 489, "secs": 24.4}
+{"question_id": 12014, "category": "engineering", "answer": "G", "pred": "J", "correct": false, "finish": "stop", "tokens": 14320, "secs": 666.0}
+{"question_id": 11332, "category": "engineering", "answer": "E", "pred": "E", "correct": true, "finish": "stop", "tokens": 15778, "secs": 768.0}
+{"question_id": 11455, "category": "engineering", "answer": "E", "pred": null, "correct": false, "finish": "length", "tokens": 16384, "secs": 727.3}
+{"question_id": 11743, "category": "engineering", "answer": "C", "pred": "C", "correct": true, "finish": "stop", "tokens": 6474, "secs": 270.1}
+{"question_id": 11350, "category": "engineering", "answer": "C", "pred": null, "correct": false, "finish": "length", "tokens": 16384, "secs": 802.8}
+{"question_id": 11552, "category": "engineering", "answer": "H", "pred": "H", "correct": true, "finish": "stop", "tokens": 286, "secs": 11.3}
+{"question_id": 11447, "category": "engineering", "answer": "F", "pred": "F", "correct": true, "finish": "stop", "tokens": 416, "secs": 14.2}
+{"question_id": 11744, "category": "engineering", "answer": "I", "pred": null, "correct": false, "finish": "length", "tokens": 16384, "secs": 802.8}
+{"question_id": 11827, "category": "engineering", "answer": "D", "pred": "D", "correct": true, "finish": "stop", "tokens": 1287, "secs": 46.9}
+{"question_id": 12194, "category": "engineering", "answer": "D", "pred": "D", "correct": true, "finish": "stop", "tokens": 255, "secs": 15.1}
+{"question_id": 11785, "category": "engineering", "answer": "D", "pred": null, "correct": false, "finish": "length", "tokens": 16384, "secs": 754.0}
+{"question_id": 12217, "category": "engineering", "answer": "G", "pred": "G", "correct": true, "finish": "stop", "tokens": 421, "secs": 14.2}
+{"question_id": 11861, "category": "engineering", "answer": "H", "pred": "H", "correct": true, "finish": "stop", "tokens": 1269, "secs": 60.8}
+{"question_id": 11906, "category": "engineering", "answer": "G", "pred": "G", "correct": true, "finish": "stop", "tokens": 5207, "secs": 296.8}
+{"question_id": 12061, "category": "engineering", "answer": "A", "pred": "J", "correct": false, "finish": "stop", "tokens": 7305, "secs": 406.3}
+{"question_id": 11285, "category": "engineering", "answer": "C", "pred": "C", "correct": true, "finish": "stop", "tokens": 288, "secs": 14.0}
+{"question_id": 12193, "category": "engineering", "answer": "C", "pred": "C", "correct": true, "finish": "stop", "tokens": 87, "secs": 4.8}
+{"question_id": 11324, "category": "engineering", "answer": "B", "pred": "B", "correct": true, "finish": "stop", "tokens": 1050, "secs": 44.4}

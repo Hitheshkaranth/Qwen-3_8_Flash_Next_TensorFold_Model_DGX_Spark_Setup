@@ -403,7 +403,7 @@
       },
       "gridPos": {
         "h": 4,
-        "w": 12,
+        "w": 6,
         "x": 0,
         "y": 6
       },
@@ -448,8 +448,8 @@
       },
       "gridPos": {
         "h": 4,
-        "w": 12,
-        "x": 12,
+        "w": 6,
+        "x": 6,
         "y": 6
       },
       "id": 10,
@@ -474,6 +474,124 @@
         }
       ],
       "title": "Total Output Tokens",
+      "type": "stat"
+    },
+    {
+      "datasource": {
+        "type": "prometheus",
+        "uid": "prometheus"
+      },
+      "description": "Current output token rate across all served models (1-minute window; includes TensorFold in-flight tokens).",
+      "fieldConfig": {
+        "defaults": {
+          "unit": "short",
+          "decimals": 1,
+          "color": {
+            "mode": "fixed",
+            "fixedColor": "#1baf7a"
+          },
+          "custom": {},
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "#1baf7a",
+                "value": null
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 4,
+        "w": 6,
+        "x": 12,
+        "y": 6
+      },
+      "id": 45,
+      "options": {
+        "colorMode": "value",
+        "graphMode": "area",
+        "justifyMode": "center",
+        "orientation": "auto",
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "textMode": "value_and_name"
+      },
+      "targets": [
+        {
+          "expr": "(sum(rate(vllm:generation_tokens_total{job!=\"tensorfold\"}[1m])) or vector(0)) + (sum(deriv((vllm:generation_tokens_total{job=\"tensorfold\"} + vllm:generation_tokens_running{job=\"tensorfold\"})[1m:5s])) or vector(0))",
+          "legendFormat": "tok/s",
+          "refId": "A",
+          "instant": false
+        }
+      ],
+      "title": "Output Now (tok/s)",
+      "type": "stat"
+    },
+    {
+      "datasource": {
+        "type": "prometheus",
+        "uid": "prometheus"
+      },
+      "description": "Highest 1-minute output token rate within the dashboard's time range. Short benchmark bursts read slightly lower than the benchmark's own number.",
+      "fieldConfig": {
+        "defaults": {
+          "unit": "short",
+          "decimals": 1,
+          "color": {
+            "mode": "fixed",
+            "fixedColor": "#eb6834"
+          },
+          "custom": {},
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "#eb6834",
+                "value": null
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 4,
+        "w": 6,
+        "x": 18,
+        "y": 6
+      },
+      "id": 46,
+      "options": {
+        "colorMode": "value",
+        "graphMode": "area",
+        "justifyMode": "center",
+        "orientation": "auto",
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "textMode": "value_and_name"
+      },
+      "targets": [
+        {
+          "expr": "max_over_time(((sum(rate(vllm:generation_tokens_total{job!=\"tensorfold\"}[1m])) or vector(0)) + (sum(deriv((vllm:generation_tokens_total{job=\"tensorfold\"} + vllm:generation_tokens_running{job=\"tensorfold\"})[1m:5s])) or vector(0)))[$__range:15s])",
+          "legendFormat": "tok/s",
+          "refId": "A",
+          "instant": false
+        }
+      ],
+      "title": "Peak Output (tok/s, selected range)",
       "type": "stat"
     },
     {
@@ -2057,6 +2175,6 @@
   "timezone": "browser",
   "title": "vLLM Command Center",
   "uid": "qwen38-host-overview",
-  "version": 19,
+  "version": 20,
   "description": "Operational view of whichever vLLM model is currently serving: live demand, tokens, cache, GPU, host resources, and per-user usage. Queries are model-agnostic (no hardcoded ports) so this stays accurate across model swaps."
 }
